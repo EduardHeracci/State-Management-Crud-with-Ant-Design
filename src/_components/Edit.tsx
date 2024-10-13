@@ -29,7 +29,7 @@ const EditUser: React.FC<{ record: UserInformation }> = ({ record }) => {
       <Link style={{ color: "greenyellow" }} onClick={showDrawer}>
         Edit
       </Link>
-      <Drawer placement="left" width={500} title="Add New User" onClose={onClose} open={open}>
+      <Drawer placement="left" width={500} title="Edit User" onClose={onClose} open={open}>
         <Form
           layout="vertical"
           onFinish={onFinish}
